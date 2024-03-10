@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/cate/cate",
+    "pages/profile/profile",
+    "pages/cart/cart"
+  ],
+  "window": {
+    "navigationBarTitleText": "帕鲁商城",
+    "navigationBarBackgroundColor": "#f3514f",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle":"dark"
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "color": "#666",
+    "backgroundColor": "#ffffff",
+    "borderStyle":"black",
+    "position": "bottom",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "asset/tabbar/index.png",
+        "selectedIconPath": "asset/tabbar/activate-index.png" 
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/cate/cate",
+        "iconPath": "asset/tabbar/cate.png",
+        "selectedIconPath": "asset/tabbar/activate-cate.png" 
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "asset/tabbar/cart.png",
+        "selectedIconPath": "asset/tabbar/activate-cart.png" 
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "asset/tabbar/my.png",
+        "selectedIconPath": "asset/tabbar/activate-my.png" 
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

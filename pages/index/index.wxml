@@ -1,0 +1,113 @@
+<!-- view 小程序容器组件  -->
+
+<!-- 轮播图 -->
+<view class="swiper">
+
+<swiper 
+autoplay
+interval="2000" 
+indicator-dots
+indicator-color="#fff"
+indicator-active-color="#f3514f">
+<swiper-item>
+  <image src="../../asset/banner/banner1.jpeg" mode=""/>
+</swiper-item>
+<swiper-item>
+  <image src="../../asset/banner/banner2.jpeg" mode=""/>
+</swiper-item>
+<swiper-item>
+  <image src="../../asset/banner/banner3.webp" mode="" />
+</swiper-item>
+</swiper>
+
+</view>
+
+<!-- 公司信息 -->
+<view class="info">
+<text>全年无休</text>
+<text>生病包换</text>
+<text>词条定制</text>
+<text>同城配送</text>
+</view>
+
+<!-- 商品导航 -->
+<view class="good-nav">
+<view>
+<navigator url="/pages/list/list">
+  <image src="../../asset/goodNav/goodIcon1.jpeg" mode=""/>
+  <text>小型帕鲁</text>
+</navigator>
+
+</view>
+
+<view>
+  <navigator url="/pages/list/list">
+    <image src="../../asset/goodNav/goodIcon2.jpeg" mode=""/>
+    <text>大型帕鲁</text>
+  </navigator>
+</view>
+
+<view>
+  <navigator url="/pages/list/list">
+    <image src="../../asset/goodNav/goodIcon3.jpeg" mode=""/>
+    <text>基础帕鲁</text>
+  </navigator>
+</view>
+
+<view>
+  <navigator url="/pages/list/list">
+    <image src="../../asset/goodNav/goodIcon4.jpeg" mode=""/>
+    <text>坐骑帕鲁</text>
+  </navigator>
+</view>
+
+</view>
+
+<!-- 推荐商品 -->
+<view class="good-hot">
+
+<scroll-view scroll-x class="scroll-x">
+
+<view>
+  <view class="good-item">
+    <image src="../../asset/floor/mianyouyou.jpeg" mode=""/>
+    <text>棉悠悠</text>
+    <text>10$</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+    <image src="../../asset/floor/daodanmao.jpeg" mode=""/>
+    <text>捣蛋猫</text>
+    <text>10$</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+    <image src="../../asset/floor/baodianxiong.jpeg" mode=""/>
+    <text>暴电熊</text>
+    <text>20$</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+    <image src="../../asset/floor/cuiyeshu.png" mode=""/>
+    <text>翠叶鼠</text>
+    <text>5$</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+    <image src="../../asset/floor/huandongshou.png" mode=""/>
+    <text>唤冬兽</text>
+    <text>40$</text>
+  </view>
+</view>
+
+</scroll-view>
+
+</view>
